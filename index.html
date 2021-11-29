@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">Tic-Tac-Toe</div>
+    </div>
+    <div class="main-container">
+      <div class="gameboard-container">
+        <div data-square="1" class="square"></div>
+        <div data-square="2" class="square"></div>
+        <div data-square="3" class="square"></div>
+        <div data-square="4" class="square"></div>
+        <div data-square="5" class="square"></div>
+        <div data-square="6" class="square"></div>
+        <div data-square="7" class="square"></div>
+        <div data-square="8" class="square"></div>
+        <div data-square="9" class="square"></div>
+      </div>
+    </div>
+    <div class="show-controller">
+      <div>
+        <label class="p1 controller" for="player1"
+          >X:
+          <div class="p1-name">Player 1</div>
+        </label>
+        <input class="p1-name-input" id="player1" type="text" />
+      </div>
+      <div>
+        <label class="p2 controller" for="player2"
+          >O:
+          <div class="p2-name">Player 2</div>
+        </label>
+        <input class="p2-name-input" id="player2" type="text" />
+      </div>
+    </div>
+    <div class="reset">
+      <button class="enter-names">Start</button>
+      <button class="reset-button">Reset</button>
+    </div>
+    <div class="results-display"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
